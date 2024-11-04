@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Videos</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>VAR - Play Gjirafa Videos</h1>
+    <form action="/play_videos" method="post">
+        <label for="link">Video URL:</label><br>
+        <input type="url" name="link" id="link" required><br><br>
+
+        <label for="instances">Number of Instances:</label><br>
+        <input type="number" name="instances" id="instances" required><br><br>
+
+        <button type="submit">Play Video</button>
+    </form>
+</body>
+</html>
